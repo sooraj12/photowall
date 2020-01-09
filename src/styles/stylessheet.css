@@ -1,0 +1,148 @@
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+
+p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: Cambria;
+    color: #065784;
+}
+
+
+h1{
+    font-size: 13rem;
+    text-align : center;
+    font-family: 'billabong';
+    font-weight: 500;
+    margin: 2px 0;
+    letter-spacing: -7px;
+    color:black;
+    text-decoration: none;
+}
+
+h1 a{
+    color: black;
+    text-decoration: none
+}
+
+h1 a:focus{
+    outline: 0;
+}
+@font-face{
+    font-family: 'billabong';
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff');
+}
+
+.photo-grid{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.figure{
+    flex-basis: calc(23.333% - 4rem);
+    border: 1px solid #d3d3d3;
+    padding: 2rem;
+    flex-grow: 1;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.single-photo{
+    max-width: 750px;
+    flex-basis: calc(23.333% - 4rem);
+    border: 1px solid #d3d3d3;
+    padding: 2rem;
+    flex-grow: 1;
+    margin: 0 2rem 2rem 2rem;
+}
+
+
+.photo{
+    width: calc(100% + 4rem);
+    margin: -2rem 0rem -1rem -2rem;
+} 
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    flex-basis: 30%;
+    color: red;
+    font-size: 15px;
+    border: 2px solid #f2f2f2;
+    line-height: 2;
+    padding: 5px;
+}
+
+.addIcon {
+    margin: 20px auto;
+    display: table;
+    padding:30px;
+    background: url("https://cdn.pixabay.com/photo/2016/03/21/05/05/plus-1270001_960_720.png");
+    background-size: contain;
+    border: none;
+}
+
+.form{
+    background: white;
+    max-width: 360px;
+    margin: 0px auto;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: sans-serif;
+    background: #f2f2f2;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0px 0px 15px;
+}
+
+.form button{
+    font-family: sans-serif;
+    background: #065784;
+    width:100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background: #7B8589;
+}
+
+button:hover{
+    border-color: black;
+    cursor: pointer;
+    background: #7B8589;
+}
+
+.comment-count {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.loader{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    font-size: 28pt;
+}
